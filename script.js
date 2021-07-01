@@ -110,10 +110,10 @@ btn.addEventListener('click',()=> {
     
 for (let i = 0; i < finalwhat.length; i++) {
     if (finalwhat[i].genero =='Grupo1') {
-        document.getElementById('alex').innerHTML += `<a rel="stylesheet" href="https://api.whatsapp.com/send?phone=${finalwhat[i].telefono}&text=Hola ${finalwhat[i].nombre}, ${mensaje1}?&source=&data=">${finalwhat[i].nombre}</a><br>`
+        document.getElementById('alex').innerHTML += `<a rel="stylesheet" href="https://api.whatsapp.com/send?phone=${finalwhat[i].telefono}&text=Hola ${finalwhat[i].nombre}, ${mensaje1}&source=&data=">${finalwhat[i].nombre}</a><br>`
     }
     else {
-        document.getElementById('alex').innerHTML += `<a rel="stylesheet" href="https://api.whatsapp.com/send?phone=${finalwhat[i].telefono}&text=Hola ${finalwhat[i].nombre}, ${mensaje2}?&source=&data=">${finalwhat[i].nombre}</a><br>`
+        document.getElementById('alex').innerHTML += `<a rel="stylesheet" href="https://api.whatsapp.com/send?phone=${finalwhat[i].telefono}&text=Hola ${finalwhat[i].nombre}, ${mensaje2}&source=&data=">${finalwhat[i].nombre}</a><br>`
     }
 }
 
